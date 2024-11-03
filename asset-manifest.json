@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/runescape-repeatable-tasks/static/css/main.f2ed04dc.css",
+    "main.js": "/runescape-repeatable-tasks/static/js/main.6d327e08.js",
+    "static/js/453.b7b8da8a.chunk.js": "/runescape-repeatable-tasks/static/js/453.b7b8da8a.chunk.js",
+    "index.html": "/runescape-repeatable-tasks/index.html",
+    "main.f2ed04dc.css.map": "/runescape-repeatable-tasks/static/css/main.f2ed04dc.css.map",
+    "main.6d327e08.js.map": "/runescape-repeatable-tasks/static/js/main.6d327e08.js.map",
+    "453.b7b8da8a.chunk.js.map": "/runescape-repeatable-tasks/static/js/453.b7b8da8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2ed04dc.css",
+    "static/js/main.6d327e08.js"
+  ]
+}
