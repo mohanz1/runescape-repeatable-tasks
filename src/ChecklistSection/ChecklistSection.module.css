@@ -1,0 +1,41 @@
+/* src/ChecklistSection.module.css */
+
+.card {
+  margin-bottom: 20px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.listItem {
+  padding-left: 0;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.taskName {
+  flex-grow: 1;
+}
+
+.resetTimer {
+  margin-left: auto;
+  color: gray;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: #424242;
+    color: #fff;
+  }
+  .resetTimer {
+    color: lightgray;
+  }
+}
