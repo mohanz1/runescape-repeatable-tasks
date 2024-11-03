@@ -28,7 +28,7 @@ export function formatTimeRemaining(timeInMilliseconds) {
   const minutes = Math.floor((totalSeconds % 3600) / 60);
   const seconds = totalSeconds % 60;
 
-  let parts = [];
+  const parts = [];
   if (days > 0) parts.push(`${days}d`);
   if (hours > 0 || days > 0) parts.push(`${hours}h`);
   if (minutes > 0 || hours > 0 || days > 0) parts.push(`${minutes}m`);
@@ -36,7 +36,6 @@ export function formatTimeRemaining(timeInMilliseconds) {
 
   return parts.join(' ');
 }
-
 
 function getNextDailyResetTime(time, timezone) {
   const now = new Date();

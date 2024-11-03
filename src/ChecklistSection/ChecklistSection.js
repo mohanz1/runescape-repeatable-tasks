@@ -1,5 +1,3 @@
-// src/ChecklistSection.js
-
 import React, { useState, useEffect } from 'react';
 import {
   Typography,
@@ -11,7 +9,7 @@ import {
   Card,
   CardContent,
 } from '@mui/material';
-import { calculateResetTime, formatTimeRemaining } from './utils';
+import { calculateResetTime, formatTimeRemaining } from '../utils';
 import styles from './ChecklistSection.module.css'; // Import CSS module
 
 function ChecklistSection({

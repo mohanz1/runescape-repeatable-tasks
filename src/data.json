@@ -1,0 +1,63 @@
+{
+  "daily": {
+    "reset": {
+      "type": "daily",
+      "time": "00:00",
+      "timezone": "UTC"
+    },
+    "tasks": [
+      { "id": "daily1", "name": "Guthixian Caches (2x)" },
+      { "id": "daily2", "name": "Daily Challenges" },
+      { "id": "daily3", "name": "Nemi Forest" },
+      { "id": "daily4", "name": "Reaper Task" },
+      { "id": "daily5", "name": "Player-Owned Farm (Beehives and Animals)" },
+      { "id": "daily7", "name": "Vis Wax" },
+      { "id": "daily8", "name": "Travelling Merchant" },
+      { "id": "daily10", "name": "Collect from Divine locations" },
+      { "id": "daily11", "name": "Use Jack of trades aura" }
+    ]
+  },
+  "weekly": {
+    "fixedDay": {
+      "reset": {
+        "type": "weekly",
+        "option": "fixedDay",
+        "dayOfWeek": "Wednesday",
+        "time": "00:00",
+        "timezone": "UTC"
+      },
+      "tasks": [
+        { "id": "weekly_fd1", "name": "Herby Werby" },
+        { "id": "weekly_fd2", "name": "Penguin Hide and Seek" },
+        { "id": "weekly_fd3", "name": "Tears of Guthix" },
+        { "id": "weekly_fd4", "name": "Circus" },
+        { "id": "weekly_fd5", "name": "Agoroth (2x)" }
+      ]
+    },
+    "afterCompletion": {
+      "reset": {
+        "type": "weekly",
+        "option": "afterCompletion",
+        "time": "00:00",
+        "timezone": "UTC"
+      },
+      "tasks": [
+        { "id": "weekly_ac1", "name": "Water Filtration System" },
+        { "id": "weekly_ac2", "name": "Managing Miscellania" }
+      ]
+    }
+  },
+  "monthly": {
+    "reset": {
+      "type": "monthly",
+      "dayOfMonth": 1,
+      "time": "00:00",
+      "timezone": "UTC"
+    },
+    "tasks": [
+      { "id": "monthly1", "name": "Troll Invasion" },
+      { "id": "monthly2", "name": "Giant Oyster" },
+      { "id": "monthly3", "name": "God Statues" }
+    ]
+  }
+}
